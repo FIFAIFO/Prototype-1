@@ -33,8 +33,8 @@ m_PackageAssets:
         name: 
         email: 
         url: 
-      category: Editor
-      type: 
+      category: 
+      type: asset
       description: The Version Control package gives you the ability to use either
         Collaborate or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic
         SCM for Unity (beta), a Plastic SCM subscription is required. Learn more
@@ -156,17 +156,17 @@ m_PackageAssets:
         - 2.1.0-preview.6
         verified: 1.15.18
       dependencies:
-      - name: com.unity.nuget.newtonsoft-json
-        version: 2.0.0
       - name: com.unity.services.core
         version: 1.0.1
-      resolvedDependencies:
       - name: com.unity.nuget.newtonsoft-json
         version: 2.0.0
+      resolvedDependencies:
       - name: com.unity.services.core
         version: 1.0.1
       - name: com.unity.modules.unitywebrequest
         version: 1.0.0
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0
       keywords:
       - backup
       - cloud
@@ -189,9 +189,9 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 637744672890000000
       documentationUrl: 
@@ -215,7 +215,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: The JetBrains Rider Editor package provides an integration for
         using the JetBrains Rider IDE as a code editor for Unity. It adds support
         for generating .csproj files for code completion and auto-discovery of installations.
@@ -339,9 +339,9 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 637334461080000000
       documentationUrl: 
@@ -365,7 +365,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: Code editor integration for supporting Visual Studio as code editor
         for unity. Adds support for generating csproj files for intellisense purposes,
         auto discovery of installations, etc.
@@ -446,9 +446,9 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 637720564750000000
       documentationUrl: 
@@ -472,7 +472,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: Code editor integration for supporting Visual Studio Code as code
         editor for unity. Adds support for generating csproj files for intellisense
         purposes, auto discovery of installations, etc.
@@ -519,16 +519,16 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 637660806170000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/com.unity.ide.vscode.git
+        url: git+https://github.com/Unity-Technologies/com.unity.ide.vscode.git
         revision: 1f4f605d5c988cb610c372b5c5216c46cc8f5d30
         path: 
     - packageId: com.unity.test-framework@1.1.29
@@ -544,8 +544,8 @@ m_PackageAssets:
         name: 
         email: 
         url: 
-      category: Unity Test Framework
-      type: 
+      category: 
+      type: asset
       description: Test framework for running Edit mode and Play mode tests in Unity.
       status: 4
       errors: []
@@ -656,16 +656,16 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 637647922650000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/com.unity.test-framework.git
+        url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
         revision: dac53542acdab7a12e9ebf111ac588d0e53cf483
         path: 
     - packageId: com.unity.textmeshpro@3.0.6
@@ -681,8 +681,8 @@ m_PackageAssets:
         name: 
         email: 
         url: 
-      category: Text Rendering
-      type: 
+      category: 
+      type: asset
       description: 'TextMeshPro is the ultimate text solution for Unity. It''s the
         perfect replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -846,9 +846,9 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 637547111200000000
       documentationUrl: 
@@ -872,7 +872,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: Use Unity Timeline to create cinematic content, game-play sequences,
         audio sequences, and complex particle effects.
       status: 4
@@ -1013,18 +1013,18 @@ m_PackageAssets:
         - 1.8.7
         verified: 1.4.8
       dependencies:
+      - name: com.unity.modules.audio
+        version: 1.0.0
       - name: com.unity.modules.director
         version: 1.0.0
       - name: com.unity.modules.animation
         version: 1.0.0
-      - name: com.unity.modules.audio
-        version: 1.0.0
       - name: com.unity.modules.particlesystem
         version: 1.0.0
       resolvedDependencies:
-      - name: com.unity.modules.director
-        version: 1.0.0
       - name: com.unity.modules.audio
+        version: 1.0.0
+      - name: com.unity.modules.director
         version: 1.0.0
       - name: com.unity.modules.animation
         version: 1.0.0
@@ -1044,9 +1044,9 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 637557616100000000
       documentationUrl: 
@@ -1112,7 +1112,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -1160,7 +1160,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -1208,7 +1208,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -1256,7 +1256,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -1304,7 +1304,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -1352,7 +1352,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -1404,7 +1404,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -1460,7 +1460,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -1509,7 +1509,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -1557,7 +1557,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -1605,7 +1605,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -1653,7 +1653,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -1701,7 +1701,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -1749,7 +1749,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -1801,7 +1801,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -1849,7 +1849,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -1905,7 +1905,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -1957,7 +1957,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -2005,7 +2005,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -2069,7 +2069,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -2117,7 +2117,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -2173,7 +2173,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -2221,7 +2221,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -2277,7 +2277,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -2333,7 +2333,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -2389,7 +2389,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -2461,7 +2461,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -2513,7 +2513,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -2573,7 +2573,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -2635,7 +2635,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -2683,7 +2683,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -2743,7 +2743,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -2795,7 +2795,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -2854,7 +2854,7 @@ m_PackageAssets:
       hasRegistry: 0
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -2905,7 +2905,7 @@ m_PackageAssets:
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -2914,6 +2914,61 @@ m_PackageAssets:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
         revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
+        path: 
+    - packageId: com.unity.services.core@1.0.1
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.1
+      source: 1
+      resolvedPath: /Users/game34/Desktop/Create With Code/Prototype 1/Library/PackageCache/com.unity.services.core@1.0.1
+      assetPath: Packages/com.unity.services.core
+      name: com.unity.services.core
+      displayName: Services Core
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'This package defines common components used by multiple Game
+        Service packages.
+
+        These are standardized and aim to unify the overall
+        experience of working with Game Services packages.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.1
+        compatible:
+        - 1.0.1
+        verified: 1.0.1
+      dependencies:
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
+        revision: 4cd880d4fd5c60597629249bf4f324e4c8d7aa2e
         path: 
     - packageId: com.unity.nuget.newtonsoft-json@2.0.0
       testable: 0
@@ -2961,7 +3016,7 @@ m_PackageAssets:
       hasRegistry: 1
       hideInEditor: 1
       entitlements:
-        isAllowed: 0
+        isAllowed: 1
       isAssetStorePackage: 0
       datePublishedTicks: 0
       documentationUrl: 
@@ -2970,61 +3025,6 @@ m_PackageAssets:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
         revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
-        path: 
-    - packageId: com.unity.services.core@1.0.1
-      testable: 0
-      isDirectDependency: 0
-      version: 1.0.1
-      source: 1
-      resolvedPath: /Users/game34/Desktop/Create With Code/Prototype 1/Library/PackageCache/com.unity.services.core@1.0.1
-      assetPath: Packages/com.unity.services.core
-      name: com.unity.services.core
-      displayName: Services Core
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: 'This package defines common components used by multiple Game
-        Service packages.
-
-        These are standardized and aim to unify the overall
-        experience of working with Game Services packages.'
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 1.0.1
-        compatible:
-        - 1.0.1
-        verified: 1.0.1
-      dependencies:
-      - name: com.unity.modules.unitywebrequest
-        version: 1.0.0
-      resolvedDependencies:
-      - name: com.unity.modules.unitywebrequest
-        version: 1.0.0
-      keywords: []
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 0
-      isAssetStorePackage: 0
-      datePublishedTicks: 0
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-        revision: 4cd880d4fd5c60597629249bf4f324e4c8d7aa2e
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
